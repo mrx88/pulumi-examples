@@ -1,5 +1,5 @@
 # Introduction
-Testing out Pulumi  "Modern infrastructure as code" Azure Nextgen Python libraries.
+Testing out Pulumi  "Modern infrastructure as code" Azure Nextgen Python libraries to create Azure Resource Group and Storage account.
 
 ## Prerequisites
 pipenv, version 11.9.0
@@ -9,6 +9,8 @@ Note: New pulumi version comes out with venv by default.
 pulumi v2.14.0
 
 azure-cli  2.15.1
+
+Python 3.8.5
 
 ## Create a new project
 Using existing azure-nextgen-python template:
