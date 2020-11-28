@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pulumi = "<3.0.0,>=2.0.0"
+pulumi-azure-nextgen = ">=0.2.0"
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+pycodestyle = "*"
+
+[requires]
+python_version = "3.8"

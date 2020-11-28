@@ -1,0 +1,4 @@
+name: azure-nextgen
+runtime:
+  name: python
+description: A minimal Azure NextGen Python Pulumi program
