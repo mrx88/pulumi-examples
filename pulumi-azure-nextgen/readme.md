@@ -1,16 +1,16 @@
 # Introduction
-Testing out Pulumi  "Modern infrastructure as code" Azure Nextgen Python libraries to create Azure Resource Group and Storage account.
+Testing out Pulumi  "Modern infrastructure as code" Azure Nextgen Python libraries to create Azure Resource Group, storage account and Kubernetes cluster (AKS)
 
 ## Prerequisites
-pipenv, version 11.9.0
+pipenv, version 2022.1.8
 
 Note: New pulumi version comes out with venv by default.
 
-pulumi v2.14.0
+pulumi v3.26.1
 
-azure-cli  2.15.1
+azure-cli  2.34.1
 
-Python 3.8.5
+Python 3.10.0
 
 ## Create a new project
 Using existing azure-nextgen-python template:
@@ -87,5 +87,9 @@ Do you want to perform this destroy?  [Use arrows to move, enter to select, type
   no
   details
 ```
+
+To deploy k8s cluster follow guide in https://www.pulumi.com/registry/packages/kubernetes/how-to-guides/aks/
+
 # Links
 https://www.pulumi.com/docs/reference/pkg/azure-nextgen/
+https://www.pulumi.com/registry/packages/kubernetes/how-to-guides/aks/
