@@ -69,7 +69,7 @@ aks = containerservice.ManagedCluster(
     agent_pool_profiles=[{
         "name": "type1",
         "mode": "System",
-        "count": 1,
+        "count": 2,
         "vm_size": "Standard_B2ms",
         "os_type": containerservice.OSType.LINUX,
         "max_pods": 110,
